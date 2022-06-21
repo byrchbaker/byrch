@@ -3,11 +3,12 @@
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  /*background-image: url("bg.jpg");
-  background-repeat: no-repeat; */
-  background-color: black;
-  background-position: 0%;
+  background-image: url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg");
+  background-repeat: repeat; 
+  /*background-color: dodgerblue;
+  */background-position: 0%;
   justify-content: center;
+  scroll-behavior: none;
 }
 
 .header {
@@ -46,7 +47,8 @@ body {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 650px) {
   .header a {
     float: none;
     display: block;
@@ -56,14 +58,95 @@ body {
   .header-right {
     float: none;
   }
+  
 }
-
 .hello-content {
     border-radius: 15px;
     background-color: white;
     max-width: 35rem;
     padding: 2rem;
     margin: 10% auto;
-    
-   
+}
+
+
+.cypat-container {
+  background-color: white;
+  margin: 2% auto;
+  padding: 7.5px;
+  height: 40%;
+  border-radius: 15px;
+  width: 75%;
+}
+
+.cypat-title {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-align:center;
+
+}
+
+.cypat-content {
+  position: relative;
+  background: #D9D9D9;
+  border-radius: 21px;
+  height: 35%;
+  width: 75%;
+  margin: 1% auto;
+}
+
+.cypat-content-title {
+  text-align: center;
+  color: #000000;
+}
+.cypat-content-year {
+  bottom: 0;
+  right: 0;
+  text-align:center;
+  font-weight: 400;
+  float: bottom;
+  color: #000000;
+}
+
+
+/* CTF CONTENT */
+
+
+.ctf-container {
+  background-color: white;
+  margin: 2% auto;
+  padding: 7.5px;
+  height: 50%;
+  border-radius: 15px;
+  width: 75%;
+}
+
+.ctf-title {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-align:center;
+
+}
+
+.ctf-content {
+  position: relative;
+  background: #D9D9D9;
+  border-radius: 21px;
+  height: 25%;
+  width: 75%;
+  margin: 1% auto;
+}
+
+.ctf-content-title {
+  text-align: center;
+  color: #000000;
+}
+.ctf-content-year {
+  bottom: 0;
+  right: 0;
+  text-align:center;
+  font-weight: 400;
+  float: bottom;
+  color: #000000;
 }

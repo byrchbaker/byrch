@@ -66,6 +66,7 @@ body {
     max-width: 35rem;
     padding: 2rem;
     margin: 10% auto;
+   /* outline: 5px solid #3366CC; */
 }
 
 
@@ -75,12 +76,14 @@ body {
   padding: 20px;
   border-radius: 15px;
   width: 75%;
+  text-align: center;
 }
 
 .cypat-title {
   position: relative;
   color: black;
   font-weight: bold;
+  word-wrap: break-word;
   text-align:center;
 
 }
@@ -123,6 +126,7 @@ body {
   position: relative;
   color: black;
   font-weight: bold;
+  word-wrap: break-word;
   text-align:center;
 
 }

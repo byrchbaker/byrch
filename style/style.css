@@ -3,8 +3,9 @@
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.hipwallpaper.com%2Fi%2F16%2F51%2FndY9Zq.jpg");
+  background-image: url("https://wallpaperaccess.com/full/2655666.jpg");
   background-repeat: repeat; 
+  background-size:contain;
   /*background-color: dodgerblue;
   */background-position: 0%;
   justify-content: center;

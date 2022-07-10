@@ -25,7 +25,7 @@
 		<div class="header-right">
       <a href="../">Home</a>
 		  <a href="../certs/">Awards</a>
-		  <!-- <a class="active" href="#">CTFs</a> -->
+		  <a class="active" href="#">CTFs</a>
 		  <a href="../contact/">Contact me</a>
 		</div>
 	  </div>

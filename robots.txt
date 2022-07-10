@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /Notes.txt
+Disallow: /CTFs
